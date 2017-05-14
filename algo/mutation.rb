@@ -4,6 +4,14 @@
 
 def mutation?(base_word, mutation)
 
+  def base_word
+    
+  end
+
+  def mutation
+    mutation? == ("burly", "ruby") || ("burly", "python")  
+  end
+
 end
 
 # Driver code - don't touch anything below this line.

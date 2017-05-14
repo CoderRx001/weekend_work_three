@@ -2,6 +2,8 @@
 # driver code. 
 # This class represents a hotel reservation.
 
+
+
 class HotelReservation
   attr_accessor :customer_name, :date, :room_number, :amenities
 
@@ -25,10 +27,10 @@ class HotelReservation
   end
 end
 
-
 # Write your own driver code below! Make sure your code tests the following:
 # The ability to change a room number even after a reservation has already been created
 # The add_a_fridge method
 # The add_a_crib method
 # The add_a_custom_amenity method
 
+puts ""
